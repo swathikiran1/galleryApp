@@ -1,0 +1,30 @@
+/* Write your code here. */
+.bg-container {
+  padding: 10px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+
+.description {
+  color: #64748b;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+
+.thumbnail-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}

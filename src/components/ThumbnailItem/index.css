@@ -1,0 +1,39 @@
+/* Write your code here. */
+
+.thumbnail-item {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.thumbnail-active {
+  opacity: unset;
+}
+
+.thumbnail-inactive {
+  opacity: 0.5;
+}
+
+.thumbnail {
+  height: 60px;
+  width: 60px;
+}
+
+@media (min-width: 768px) {
+  .thumbnail-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .thumbnail {
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+  }
+}
